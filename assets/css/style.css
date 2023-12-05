@@ -32,7 +32,31 @@
     /* h1 style*/
     h1 {
         font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #252525;
 
+
+    }
+
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /*Style for menu*/
+    #menu ul {
+        letter-spacing: 4px;
+        font-size: 110%;
+        list-style-type: none;
+    }
+
+    #menu>li {
+        margin: 1em;
+    }
+
+    .active {
+        border-bottom: 1px solid;
     }
 
     /* Main content */
