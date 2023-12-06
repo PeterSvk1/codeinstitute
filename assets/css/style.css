@@ -18,6 +18,9 @@
         font-family: 'Lato', sans-serif;
     }
 
+    #logo {
+        font-size: 150%;
+    }
 
     /* Header */
     header {
@@ -127,6 +130,18 @@
 
         .nav-toggle-label {
             display: none;
+
+        }
+
+        #logo {
+            font-size: 280%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+        }
+
+        #main {
+            /*main contect posunie dole*/
+            margin-top: 90px;
 
         }
     }
