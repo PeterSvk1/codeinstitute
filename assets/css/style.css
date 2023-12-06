@@ -103,10 +103,11 @@
         margin-top: 40px;
     }
 
+    /*Hero ID*/
     #hero {
         height: 600px;
         width: 100%;
-        background-color: lightblue;
+        background: url("../images/hero-image.jpeg") no-repeat center center/cover;
     }
 
     /* Footer 
