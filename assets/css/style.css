@@ -100,15 +100,22 @@
         background-color: lightblue;
         /* Make main element take up any surplus space to push footer down */
         flex: 1 0 auto;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
-    /* Footer */
+    /* Footer 
     footer {
         background-color: orange;
 
-    }
+    }*/
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
 
+    }
 
     /* media querry for 768p up takze obrazovka sa bude navigacia sa bude hybat podla toho*/
     @media screen and (min-width: 768px) {
