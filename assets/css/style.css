@@ -187,9 +187,12 @@ main {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
+    /*helps with expanding*/
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
-#time sh3 {
+#times h3 {
     color: #fafafa;
 }
 
