@@ -106,7 +106,9 @@
     /* Footer */
     footer {
         background-color: orange;
+
     }
+
 
     /* media querry for 768p up takze obrazovka sa bude navigacia sa bude hybat podla toho*/
     @media screen and (min-width: 768px) {
@@ -139,9 +141,16 @@
             margin: 0 0.5rem;
         }
 
-        #main {
+        main {
             /*main contect posunie dole*/
-            margin-top: 90px;
+            margin-top: 80px;
 
+        }
+    }
+
+    /*large devices laptops 992px up*/
+    @media screen and (min-width:992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
         }
     }
