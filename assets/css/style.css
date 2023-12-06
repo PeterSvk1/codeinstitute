@@ -27,6 +27,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -160,19 +164,13 @@ main {
     justify-content: center;
 }
 
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+/*gallery*/
+#photos img {
+    width: 100%;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+#photos {
+    line-height: 0;
 }
 
 /*meet up section*/
@@ -195,6 +193,24 @@ main {
 #times h3 {
     color: #fafafa;
 }
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
 
 
 /* Media query: tablets and larger (768px and up) */
